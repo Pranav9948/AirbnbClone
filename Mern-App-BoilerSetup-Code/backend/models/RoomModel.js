@@ -9,22 +9,32 @@ const roomSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  images: [{
+  image: {
     type: String,
     required: true
-  }],
+  },
   fromDate: {
-    type: Date,
+    type: String,
     required: true
   },
   toDate: {
-    type: Date,
+    type: String,
     required: true
   },
+  fromTime: {
+    type: String,
+    required: true
+  },
+  toTime: {
+    type: String,
+    required: true
+  },
+  
   pricePerNight: {
     type: Number,
     required: true
-  },
+  }
+  
   
 });
 

@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
- const MONGO_URL="mongodb+srv://Pranav:Pranav1!@shoplifter.k1oygu5.mongodb.net/ShopifyClone"
+ const MONGO_URL="mongodb+srv://Pranav:Pranav1!@shoplifter.k1oygu5.mongodb.net/airbnbclone"
+
 
 mongoose.connect(MONGO_URL);
 
